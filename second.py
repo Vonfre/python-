@@ -3,7 +3,7 @@ class Molecule: #定义Molecule作为基类
         self.elements = set()   #初始化空集
         self.weight = None  #初始化为None
     def show_weight(self):  #定义show-weight方法
-        print(self.weight)  
+        print(self.weight)
     def show_elements(self):    #定义show-element方法
         print(self.elements)
 
